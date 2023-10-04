@@ -112,7 +112,7 @@ body{
 .img-description{
     height:60vh;
     margin-top: 96px;
-    background-image: url(/img/carrusel/carrusel3.jpg);
+    background-image: url(img/carrusel/carrusel3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -157,7 +157,7 @@ body{
 }   
 
 .contenedor-img{
-    background-image: url(/img/carrusel/imagen-contacto.png);
+    background-image: url(img/carrusel/imagen-contacto.png);
     height: 400px;
     margin: auto;
 }
@@ -292,15 +292,15 @@ body{
         height: calc(100vh - 96px);   
     }
     .formulario-1 {
-        width: 760px;
+        width: 705px;
     }
     #name{
-        width: 725px;
+        width: 670px;
     }
     #email{
-        width: 725px;
+        width: 670px;
     }
     #message{
-        width: 725px;
+        width: 670px;
     }
 }
