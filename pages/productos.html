@@ -1,183 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="png" href="/img/icons/icons8-cafe-64.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Coffee Shop | Productos</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="png" href="/img/icons/icons8-cafe-64.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;400;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="../styles.css">
-  <title>Coffee Shop | Productos</title>
-</head>
-
-<body>
-  <header>
-    <div id="toggle-menu" class="toggle-menu d-flex justify-content-between d-md-none">
-      <div class="d-flex flex-row text-light">
-        <a style="text-decoration: none; color: #fff;" href="../index.html">
-          <p class="txt-logo">Coffee and Chill<img style="border-left: solid 1px; margin-left: 17px;"
-              src="../img/icons/icons8-cafe-64.png" alt=""></p>
-        </a>
-      </div>
-      <div class="img-logo">
-        <img class="me-3" src="../img/icons/menuHamb.png" alt="">
-      </div>
-    </div>
-    <ul id="nav-bar"
-      class="container-fluid nav-bar d-flex flex-column align-items-center justify-content-center flex-md-row">
-      <div class="">
-        <div class="d-none d-md-flex flex-row justify-content-beetwen ">
-          <a style="text-decoration: none; color: #fff;" href="../index.html">
-            <p class="txt-logo">Coffee and Chill<img style="border-left: solid 1px; margin-left: 17px;"
-                src="../img/icons/icons8-cafe-64.png" alt=""></p>
+  <body>
+    <header>
+      <div
+        id="toggle-menu"
+        class="toggle-menu d-flex justify-content-between d-md-none"
+      >
+        <div class="d-flex flex-row text-light">
+          <a style="text-decoration: none; color: #fff" href="../index.html">
+            <p class="txt-logo">
+              Coffee and Chill<img
+                style="border-left: solid 1px; margin-left: 17px"
+                src="../img/icons/icons8-cafe-64.png"
+                alt=""
+              />
+            </p>
           </a>
         </div>
+        <div class="img-logo">
+          <img class="me-3" src="../img/icons/menuHamb.png" alt="" />
+        </div>
       </div>
-      <div class=" col-6 d-flex flex-column justify-content-center col-md-8 flex-md-row justify-content-md-end">
-        <li class="nav-bar__item">
-          <a class="nav-bar__link" href="../index.html">Inicio</a>
-        </li>
-        <li class="nav-bar__item">
-          <a class="nav-bar__link" href="/pages/productos.html">Productos</a>
-        </li>
-        <li class="nav-bar__item">
-          <a class="nav-bar__link" href="/pages/aboutUs.html">Acerca de</a>
-        </li>
-        <li class="nav-bar__item">
-          <a class="nav-bar__link" href="/pages/galeria.html">Galeria</a>
-        </li>
-        <li class="nav-bar__item">
-          <a class="nav-bar__link" href="/pages/contacto.html">Contacto</a>
-        </li>
-      </div>
-    </ul>
-  </header>
-  <main>
-    <section class="container productos">
+      <ul
+        id="nav-bar"
+        class="container-fluid nav-bar d-flex flex-column align-items-center justify-content-center flex-md-row"
+      >
+        <div class="">
+          <div class="d-none d-md-flex flex-row justify-content-beetwen">
+            <a style="text-decoration: none; color: #fff" href="../index.html">
+              <p class="txt-logo">
+                Coffee and Chill<img
+                  style="border-left: solid 1px; margin-left: 17px"
+                  src="../img/icons/icons8-cafe-64.png"
+                  alt=""
+                />
+              </p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="col-6 d-flex flex-column justify-content-center col-md-8 flex-md-row justify-content-md-end"
+        >
+          <li class="nav-bar__item">
+            <a class="nav-bar__link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-bar__item">
+            <a class="nav-bar__link" href="/pages/productos.html">Productos</a>
+          </li>
+          <li class="nav-bar__item">
+            <a class="nav-bar__link" href="/pages/aboutUs.html">Acerca de</a>
+          </li>
+          <li class="nav-bar__item">
+            <a class="nav-bar__link" href="/pages/galeria.html">Galeria</a>
+          </li>
+          <li class="nav-bar__item">
+            <a class="nav-bar__link" href="/pages/contacto.html">Contacto</a>
+          </li>
+        </div>
+      </ul>
+    </header>
+    <main>
+      <section class="container productos">
+        <div class="container">
+          <h3 class="py-5 d-flex justify-content-start text-dark">
+            <strong style="border-bottom: solid lightcoral">Bebidas</strong>
+          </h3>
+          <div
+            class="cards-productos d-flex flex-row flex-wrap align-items-center row"
+          >
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/bebidas/americano.jpg"
+                alt="cafe americano"
+              />
+              <p>Café Americano</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/bebidas/cafe-con-leche.jpg"
+                alt="cafe-con-leche"
+              />
+              <p>Café Cortado</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/bebidas/cappucino.jpg"
+                alt="cappucino"
+              />
+              <p>Cappucino</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/bebidas/cafe-mocha.jpg"
+                alt="cafe-mocha"
+              />
+              <p>Café Mocha</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/bebidas/cappucino-frio.jpg"
+                alt="cappucino-frio"
+              />
+              <p>Cappucino Frio</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/bebidas/americano-frio.jpg"
+                alt="americano-frio"
+              />
+              <p>Café Americano Frio</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/bebidas/te.jpg"
+                alt="Té"
+              />
+              <p>Té</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px; padding-top: 5px"
+                src="../img/bebidas/te-helado.jpg"
+                alt="té helado"
+              />
+              <p>Té Helado</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container productos2">
+        <div class="container">
+          <h3 class="py-5 d-flex justify-content-start text-dark">
+            <strong style="border-bottom: solid lightcoral">Comidas</strong>
+          </h3>
+          <div
+            class="cards-productos d-flex flex-row flex-wrap align-items-center row"
+          >
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/comidas/medialuna-dulce.jpg"
+                alt="medialuna dulce"
+              />
+              <p>Medialuna Dulce</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/comidas/medialuna-JyQ.jpg"
+                alt="medialuna jamon y queso"
+              />
+              <p>Medialuna Rellena de Jamón y Queso</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/comidas/medialuna-salada.jpg"
+                alt="medialuna salada"
+              />
+              <p>Medialuna Salada</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/comidas/medialuna-ddl.jpeg"
+                alt="medialuna con dulce de leche"
+              />
+              <p>Medialuna con Dulce de Leche</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/comidas/chocotorta.jpg"
+                alt="chocotorta"
+              />
+              <p>Chocotorta</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/comidas/chipacitos.jpg"
+                alt="chipacitos de queso"
+              />
+              <p>Chipacitos de Queso</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px"
+                src="../img/comidas/tostado-JyQ.jpg"
+                alt="tostado de jamon y queso"
+              />
+              <p>Tostado de Jamón y Queso</p>
+            </div>
+            <div
+              class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4"
+            >
+              <img
+                style="width: 150px; height: 150px; padding-top: 5px"
+                src="../img/comidas/donas.jpg"
+                alt="donas"
+              />
+              <p>Dona</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div class="container">
-        <h3 class="py-5 d-flex justify-content-start text-dark">
-          <strong style="border-bottom: solid lightcoral;">Bebidas</strong>
-        </h3>
-        <div class="cards-productos d-flex flex-row flex-wrap align-items-center row">
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/bebidas/americano.jpg" alt="cafe americano">
-            <p>Café Americano</p>
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
+          style="border-top: solid 1px black"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="index.html"
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+            >
+              <img
+                width="40"
+                src="/img/icons/icons8-cafe-64.png"
+                alt="imagen ilustrativa de cafe"
+              />
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary"
+              >© 2023 Coffee and Chill</span
+            >
           </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/bebidas/cafe-con-leche.jpg" alt="cafe-con-leche">
-            <p>Café Cortado</p>
-          </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/bebidas/cappucino.jpg" alt="cappucino">
-            <p>Cappucino</p>
-          </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/bebidas/cafe-mocha.jpg" alt="cafe-mocha">
-            <p>Café Mocha</p>
-          </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/bebidas/cappucino-frio.jpg" alt="cappucino-frio">
-            <p>Cappucino Frio</p>
-          </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/bebidas/americano-frio.jpg" alt="americano-frio">
-            <p>Café Americano Frio</p>
-          </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/bebidas/te.jpg" alt="Té">
-            <p>Té</p>
-          </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px; padding-top: 5px;" src="../img/bebidas/te-helado.jpg" alt="té helado">
-            <p>Té Helado</p>
-          </div>
-        </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-body-secondary" href="https://www.instagram.com"
+                ><img width="30" src="/img/icons/iico-nstagram.png" alt=""
+              /></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-body-secondary" href=""
+                ><img width="30" src="/img/icons/ico-whatsapp.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </footer>
       </div>
-    </section>
+    </main>
+    <script src="/script.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <section class="container productos2">
-      <div class="container">
-        <h3 class="py-5 d-flex justify-content-start text-dark"><strong
-            style="border-bottom: solid lightcoral;">Comidas</strong></h3>
-        <div class="cards-productos d-flex flex-row flex-wrap align-items-center row ">
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/comidas/medialuna-dulce.jpg" alt="medialuna dulce">
-            <p>Medialuna Dulce</p>
-          </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/comidas/medialuna-JyQ.jpg" alt="medialuna jamon y queso">
-            <p>Medialuna Rellena de Jamón y Queso</p>
-          </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/comidas/medialuna-salada.jpg" alt="medialuna salada">
-            <p>Medialuna Salada</p>
-          </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/comidas/medialuna-ddl.jpeg"
-              alt="medialuna con dulce de leche">
-            <p>Medialuna con Dulce de Leche</p>
-          </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/comidas/chocotorta.jpg" alt="chocotorta">
-            <p>Chocotorta</p>
-          </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/comidas/chipacitos.jpg" alt="chipacitos de queso">
-            <p>Chipacitos de Queso</p>
-          </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px;" src="../img/comidas/tostado-JyQ.jpg" alt="tostado de jamon y queso">
-            <p>Tostado de Jamón y Queso</p>
-          </div>
-          <div class="img-hover d-flex flex-column align-items-center col-6 col-lg-3 col-md-4 mb-sm-4 mb-4">
-            <img style="width: 150px; height: 150px; padding-top: 5px;" src="../img/comidas/donas.jpg" alt="donas">
-            <p>Dona</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4" style="border-top: solid 1px black;">
-        <div class="col-md-4 d-flex align-items-center">
-          <a href="index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-            <img width="40" src="/img/icons/icons8-cafe-64.png" alt="imagen ilustrativa de cafe">
-          </a>
-          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Coffee and Chill</span> 
-        </div>
-
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com"><img width="30"
-                src="/img/icons/iico-nstagram.png" alt=""></a></li>
-          <li class="ms-3"><a class="text-body-secondary" href=""><img width="30"
-                src="/img/icons/ico-whatsapp.png" alt=""></a></li>
-        </ul>
-      </footer>
-    </div>
-  </main>
-  <script src="/script.js"></script>
-  <!-- Bootstrap core JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
-  </script>
-
-</body>
-
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
